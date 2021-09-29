@@ -17,7 +17,7 @@ The restricted shell has CLI Version “Reduced_CLI_HGU_v15”, and the environm
 
 ![image](https://user-images.githubusercontent.com/90664730/135199655-c22019d8-a417-471d-baa6-3780599548cc.png)
 
-The command “deviceinfo show file <path>” is supposed to be used from reduced CLI to show files and directories. Because this command do not handle correctly special characters, is possible to insert a second command as a parameter on the /<path/> value. By using “&&/bin/bash” as parameter value we can spawn a bash console, as seen on the next image:
+The command “deviceinfo show file <path>” is supposed to be used from reduced CLI to show files and directories. Because this command do not handle correctly special characters, is possible to insert a second command as a parameter in the "path" value. By using “&&/bin/bash” as parameter value we can spawn a bash console, as seen on the next image:
 
 ![image](https://user-images.githubusercontent.com/90664730/135199703-c8b56776-f413-4ad4-ac45-9f94b0d39d70.png)
 
