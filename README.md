@@ -3,7 +3,7 @@ Privilege escalation vulnerability on MitraStar routers
 
 Device: Mitrastar GPT-2541GNAC-N1
 
-Firmware: BR_g3.5_100VNZ0b33
+Firmware: BR_g3.5_100VNZ0b33 (maybe works on other versions)
 
 
 Exploit: 
