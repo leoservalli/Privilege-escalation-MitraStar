@@ -2,7 +2,9 @@
 Privilege escalation vulnerability on MitraStar routers
 
 Device: Mitrastar GPT-2541GNAC-N1
+
 Firmware: BR_g3.5_100VNZ0b33
+
 
 Exploit: 
 
@@ -11,7 +13,7 @@ Mitrastar GPT-2541GNAC-N1 devices are provided with access through ssh into a re
 ![image](https://user-images.githubusercontent.com/90664730/135199877-45d8965a-5068-4cc5-ac26-6d600039932f.png)
 
 
-That restricted shell has CLI Version “Reduced_CLI_HGU_v15”, and the environment is restricted to avoid execution of common linux/unix commands.
+The restricted shell has CLI Version “Reduced_CLI_HGU_v15”, and the environment is restricted to avoid execution of common linux/unix commands.
 
 ![image](https://user-images.githubusercontent.com/90664730/135199655-c22019d8-a417-471d-baa6-3780599548cc.png)
 
@@ -27,7 +29,7 @@ So it is possible to escalate privileges by spawning a full interoperable bash c
 
 Through this escalation is possible change the content of /etc/passwd (/var/passwd), create new users, or change any other system resource.
 
-The user “support” who has root privileges, is provided printed on the back of the router. As reported on a previous CVEs (CVE-2017-16523 / CVE-2017-16522), some Mitrastar routers use default user and passwords that have permission to connect through SSH.
+The user “support” who has root privileges, is provided printed on the back of the router. In some cases, this routers use default user/password by default.
 
 
 
