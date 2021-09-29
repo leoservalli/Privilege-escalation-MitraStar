@@ -27,9 +27,9 @@ So it is possible to escalate privileges by spawning a full interoperable bash c
 ![image](https://user-images.githubusercontent.com/90664730/135199738-2e009197-fce1-4ee3-9513-07c711c3a67f.png)
 
 
-Through this escalation is possible change the content of /etc/passwd (/var/passwd), create new users, or change any other system resource.
+Through this escalation we can change the content of /etc/passwd (/var/passwd), create new users, or change any other system resource permanently.
 
-The user “support” who has root privileges, is provided printed on the back of the router. In some cases, this routers use default user/password by default.
+The user “support” is provided printed on the back of the router. In some cases, this routers use default user/password by default.
 
 
 
