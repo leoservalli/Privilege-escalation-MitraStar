@@ -1,4 +1,5 @@
-# Privilege-escalation-MitraStar-Router-GPT-2541GNAC-N1
+# Privilege-escalation-MitraStar-Router-GPT-2541GNAC-N1 
+CVE-2021-42165
 Privilege escalation vulnerability on MitraStar routers
 
 Device: Mitrastar GPT-2541GNAC-N1
