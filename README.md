@@ -24,7 +24,7 @@ The command “deviceinfo show file <path>” is supposed to be used from reduce
 ![image](https://user-images.githubusercontent.com/90664730/135199703-c8b56776-f413-4ad4-ac45-9f94b0d39d70.png)
 
 
-So it is possible to escalate privileges by spawning a full interoperable bash console with root privileges (see next image):
+So it is possible to escalate privileges by spawning a full interoperable console with root privileges (see next image):
 
 ![image](https://user-images.githubusercontent.com/90664730/135199738-2e009197-fce1-4ee3-9513-07c711c3a67f.png)
 
